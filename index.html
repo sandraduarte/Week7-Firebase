@@ -3,19 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Train Time Manager</title>
-	<!-- Moment.js -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+	
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-<!-- <!-- 	Font Awesome Icons
- -->	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/cosmo/bootstrap.min.css">
+
+<!-- 	Stylesheets
+ -->
+ <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 
 	<!-- Firebase -->
 	<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
 	
-	<script type="text/javascript" href= "javascript/script.js"></script>
+<!-- 	Javascript
+ -->	<script type="text/javascript" href= "javascript/script.js"></script>
+<!-- Moment.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
 </head>
 <body>
 
@@ -68,15 +74,15 @@
 					
 					  <div class="form-group">
 					    <label for="text">Train Name</label>
-					    <input type="text" class="form-control" id="train-name" placeholder="New York Express">
+					    <input type="text" class="form-control" id="train-name" placeholder="Express Ride">
 					  </div>
 					  <div class="form-group">
 					    <label for="text">Destination</label>
-					    <input type="text" class="form-control" id="train-destination" placeholder="New York">
+					    <input type="text" class="form-control" id="train-destination" placeholder="La La Land">
 					  </div>
 					  <div class="form-group">
 					    <label for="text">First Train Time (military time)</label>
-					    <input type="text" class="form-control" id="first-train-time" placeholder="HH:mm">
+					    <input type="text" class="form-control" id="first-train-time" placeholder="hh:mm (6:30pm = 18:30">
 					  </div>
 					  <div class="form-group">
 					    <label for="text">Frequency</label>
